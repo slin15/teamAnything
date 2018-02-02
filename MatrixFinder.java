@@ -24,6 +24,7 @@ public class MatrixFinder {
      */
 
     public static String finder(int[][] a, int target){
+	long start = System.currentTimeMillis(); 
 
 	//we're using bottom left corner as our start point
 	int col = 0;
@@ -37,16 +38,23 @@ public class MatrixFinder {
 		col++;
 		    
 	    //prevent infinte looping/break out of loop
-	    if(row < 0 || col > a.length -1)
+	    if(row < 0 || col > a.length -1) {
+		long end = System.currentTimeMillis(); 
+		System.out.println("elapsed time: " + (end - start));
+		System.out.println(System.nanoTime()); 
 		return "(-1,-1)";
+	    } 
 	    
 	}//ends loop
-	
+	long end = System.currentTimeMillis(); 
+	System.out.println("elapsed time: " + (end - start));
+	System.out.println(System.nanoTime()); 
 	return "(" + row + "," + col + ")";	
     }
 
 
     public static void main(String[] args){
+        
 
 	int[][] test = {
 	    {1,2,5},

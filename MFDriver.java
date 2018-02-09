@@ -2,10 +2,14 @@ public class MFDriver{
 
     public static int[][] populate(int[][] a){
 	int num = 0;
+	int num2 = 0;
 	for(int x = 0; x < a.length; x++){
-	    for(int y = 0; y < a.length; y++)
+	    num = num2;
+	    for(int y = 0; y < a.length; y++) {
 		a[x][y] = num;
-	    num++;
+	        num++;
+	    }
+	    num2++;
 	}	
 	return a; 
     }

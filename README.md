@@ -26,4 +26,4 @@ We were able to formulate a line of best fit, **12.6X - 10707 = Y with a coeffic
 ## Conclusions ##
 The function runs in linear time with negligble deviations.
 
-The minor deviations were mostly likely caused by the randomness of the target which could have led to either a worst or best case scenario. 
+The minor deviations were mostly likely caused by the randomness of the target number which could have led to either a worst or best case scenario. 

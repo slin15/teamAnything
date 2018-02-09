@@ -1,7 +1,7 @@
-# teamAnything
-*APCS2 pd02
-*L#00 -- But What Does the Data Say? 
-*Ricky Lin, Bo Hui Lu, Susan Lin 
+# teamAnything #
+# APCS2 pd02 # 
+# L#00 -- But What Does the Data Say? #
+# Ricky Lin, Bo Hui Lu, Susan Lin #
 
 #Hypothesis: As the size of the matrix, n, increases the runtime will increase at a linear rate.
 

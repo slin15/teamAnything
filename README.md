@@ -19,6 +19,7 @@ then type in java MFDriver > data.csv
 Using the same sample size, run 10K trials, but with incrementing elements. Check the runtime of those trials and document it in a .csv file.
 
 ## Results ##
+(https://docs.google.com/spreadsheets/d/1UMSfhXNJ7QH35i69T8W8c4uGV2bFzeNfo48xeQPfikQ/edit?usp=sharing "Google Sheets Link to Experimental Data")
 ![](./graph.png)
 
 The data shows that the runtime is roughly linear, with few distinct points that do not conform to the trend.

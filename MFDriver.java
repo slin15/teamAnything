@@ -13,23 +13,25 @@ public class MFDriver{
     public static void main(String[] args){
 	int[][] a;
 	int size = 1; 
-	int target = 0;
-	int total = 0; 
-	int counter = 0; 
 	
-	while(size <= 10000){
+	
+	while(size <= 5000){
+	    long total = 0;
+	    int counter = 0;
 	    a = new int[size][size];
 	    populate(a);
-	    target = (int) Math.random() * size;
+	    int target = (int) Math.random() * size;
 
 	    while (counter < 10000) {
 		long startTime = System.nanoTime();
+		//long startTime = System.currentTimeMillis();
 		MatrixFinder.finder(a, target);
 		long endTime = System.nanoTime() - startTime;
+		//long endTime = System.currentTimeMillis() - startTime;
 		total += endTime;
 		counter ++; 
 	    }
-	    System.out.println(size + " ," + total/10000.0);
+	    System.out.println(size + " ," + total);
 	    total = 0; 
 	    size++; 
 	} 

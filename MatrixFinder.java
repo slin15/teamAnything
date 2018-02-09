@@ -47,7 +47,7 @@ public class MatrixFinder {
 
     public static void main(String[] args){
         
-
+	/*
 	int[][] test = {
 	    {1,2,5},
 	    {3,6,7},
@@ -69,7 +69,7 @@ public class MatrixFinder {
 	System.out.println(finder(testRepeat,2)); //testing special case
 	System.out.println(finder(testRepeat,3)); //testing special case
 	System.out.println(finder(testRepeat,4)); //testing special case
-	
+	*/
     } 
     
 }

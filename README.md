@@ -1,5 +1,5 @@
 # teamAnything #
-## APCS2 pd02 ##
+APCS2 pd02 
 ## L#00 -- But What Does the Data Say? ##
 ## Ricky Lin, Bo Hui Lu, Susan Lin ##
 

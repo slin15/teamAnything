@@ -17,7 +17,7 @@ then type in java MFDriver > data.csv
 Using the same sample size, run 10 trials (loop 100000000x), but randomize the elements. Check the runtime of those trials and document it in a .csv file.
 
 ## Results ##
-The data shows that the runtime is roughly linear, with few distinct points that do not conform to the trend. We were able to formulate a line of best fit, ** 12.6X - 10707 = Y with a coefficient of determination (R^2) of 0.984 **.  
+The data shows that the runtime is roughly linear, with few distinct points that do not conform to the trend. We were able to formulate a line of best fit, **12.6X - 10707 = Y with a coefficient of determination (R^2) of 0.984**.  
 
 ## Conclusions ##
 The function runs in linear time with negligble deviations. 

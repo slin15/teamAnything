@@ -1,37 +1,26 @@
 public class MFDriver{
 
-    public static int[][] generate(int size){
-	int[][] rtr = new int[size][size];
-	int increment = 0;
+    public static int[][] populate(int[][] a){
+	int num = 0;
 	for(int x = 0; x< size; x++){
-	    int num = increment;
-	    for(int y = 0; y<size; y++){
-		num++;
-		rtr[x][y] = num;
-	    }
-	    increment++;	    
-	}
-
-
-	return
+	    for(int y = 0; y<size; y++)
+		a[x][y] = num;
+	    num++;
+	}	
+	return rtr; 
     }
 
     public static void main(String[] args){
-	int counter = 10000;
-	while(counter>0){
-
-	    MatrixFinder.finder
-
-	    counter--;
-
-	    
-
-	}
-
-
+	int size = 0; 
+	int[][] a;
+	int target;
 	
-
+	while(size < 10000){
+	    a = new int[size][size];
+	    populate(a); 
+	    target = Math.random * size;
+	    
+	    counter--;
+	} 
     }
-
-
 }
